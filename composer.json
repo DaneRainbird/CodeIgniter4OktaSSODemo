@@ -2,7 +2,7 @@
     "name": "Code Igniter 4 Okta SSO Demo",
     "type": "project",
     "description": "A demo implementation of Okta Single-Sign-On (SSO) with Code Igniter 4",
-    "homepage": "",
+    "homepage": "https://github.com/Datenyan/CodeIgniter4OktaSSODemo",
     "license": "MIT",
     "require": {
         "php": "^7.3 || ^8.0",
