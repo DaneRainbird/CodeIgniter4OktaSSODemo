@@ -1,5 +1,5 @@
 {
-    "name": "CodeIgniter4OktaSSODemo",
+    "name": "datenyan/code-igniter-4-okta-sso-demo",
     "type": "project",
     "description": "A demo implementation of Okta Single-Sign-On (SSO) with Code Igniter 4",
     "homepage": "https://github.com/Datenyan/CodeIgniter4OktaSSODemo",
