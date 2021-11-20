@@ -1,0 +1,173 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    background-color: #f1f1f1;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 0 5% 3% 5%;
+}
+
+.author {
+    padding-top: 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    color: #666;
+}
+
+.author p {
+    opacity: 50%;
+    transition: opacity 0.3s;
+}
+
+.author a {
+    color: #666;
+    transition: color 0.3s;
+}
+
+.author a:hover {
+    color: #333;
+}
+
+.author p:hover {
+    opacity: 100%;
+}
+
+.introduction h1 {
+    font-size: 2.5em;
+    font-weight: bolder;
+    margin: 0;
+}
+
+.introduction p {
+    font-size: 1.2em;
+    color: #706b6b;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 3% 5% 5% 5%;
+    flex: 1;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 2%;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-bottom: 2%;
+    padding: 0 2%;
+}
+
+.col h2 {
+    margin: 0;
+}
+
+.user {
+    color: #706b6b;
+    font-style: italic;
+}
+
+footer {
+    display: flex;
+    background-color: #f1f1f1;
+    flex-shrink: 0;
+    border-top: 1px solid #e0e0e0;
+    justify-content: center;
+    color: #666;
+}
+
+footer a {
+    color: #666;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #333;
+}
+
+.success-alert {
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+    color: #155724;
+    border-radius: 0.25rem;
+    padding: 0.25rem 1.25rem;
+    margin-top: 1rem;
+}
+
+/* 
+ * Button CSS, taken from Bootstrap 5. Credit to:
+ * https://getbootstrap.com/docs/5.0/components/buttons/
+ */
+.btn {
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;   
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid transparent;
+    padding: 12px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #286090;
+    border-color: #204d74;
+}
+
+/* Media Queries for Mobile Screens */
+@media screen and (max-width: 768px) {
+    .author {
+        padding-top: 5%;
+    }
+    .introduction {
+        padding: 0 5% 2% 5%;
+    }
+    .container {
+        padding: 4% 5% 5% 5%;
+    }
+    footer {
+        padding: 3% 5% 5% 5%;
+        text-align: center;
+    }
+    .row {
+        flex-direction: column;
+    }
+    .col {
+        margin-bottom: 5%;
+        padding: 0 5%;
+    }
+    .col h2 {
+        margin-bottom: 2%;
+    }
+    .btn {
+        padding: 10px 10px;
+    }
+}
