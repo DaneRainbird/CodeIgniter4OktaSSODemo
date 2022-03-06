@@ -8,11 +8,11 @@ A demonstration of Okta-powered OIDC authentication for CodeIgniter 4.
 
 ## Prerequisites
 
-Firstly, make a copy of the `.env.example` file and name is `.env`. Ensure this file is in the root of the directory. 
+Firstly, make a copy of the `.env.example` file and name it `.env`. Ensure this file is in the root of the directory. 
 
 Secondly, an Okta Application needs to be generated:
  - Register for an Okta account on the [Okta Developer Portal](https://developer.okta.com/signup/) (or sign in)
- - Navigate to `Applications > Applications`in the menu after signing in
+ - Navigate to `Applications > Applications` in the menu after signing in
  - Select `Create App Integreation`
  - Choose `OIDC - OpenID Connect` and `Web Application`
  - Select `Next` and follow the prompts to name your Okta app
